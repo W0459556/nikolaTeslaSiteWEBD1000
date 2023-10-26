@@ -3,89 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nikola Tesla</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="plasmaBall.png">
 
-    <style>
-        body {
-            margin: 0;
-        }
-        
-        .grid-container {
-            display: grid;
-            grid-template-columns: 10% 5% 5% 5% 60% 5% 10%;
-            gap: 0px;
-            background-color: beige;
-        }
-        
-        .grid-container > div {
-            width: 100%;
-            background-color: white;
-        }
-
-        .header {
-            grid-column: 1 / span 7;
-            grid-row: 1;
-            text-align: center;
-        }
-
-        .timeDate1 {
-            grid-column: 4 / span 4;
-            grid-row: 2;
-        }
-
-        .timeDate2 {
-            grid-column: 4 / span 3;
-            grid-row: 4;
-        }
-
-        .LBorder {
-            grid-column: 1;
-            grid-row: 2 / span 13;
-        }
-
-        .RBorder {
-            grid-column: 7;
-            grid-row: 2 / span 13;
-        }
-
-        .borderColour {
-            width: 100%;
-            height: 100%;
-            background-color: grey;
-        }
-
-        .timeLineLine {
-            grid-column: 3;
-            grid-row: 2 / span 13;
-        }
-
-        .timeLineLineLeft {
-            grid-column: 2;
-            grid-row: 2 / span 13;
-        }
-
-        .line {
-            width: 100%;
-            height: 100%;
-            background-color: rgb(57, 57, 57);
-        }
-
-        h1 {
-            color: white;
-        }
-        </style>
 </head>
 <body>
     <div class="grid-container">
-        <div class="header"><h1 style="color: black;">Nikola Tesla</h1><p>The Forgotten Genius</p></div>
+        <div class="header" style="background-color: rgb(240, 240, 240);"><h1 style="color: black;">Nikola Tesla</h1><p>The Forgotten Genius</p></div>
 
 
         <div class="LBorder"><div class="borderColour"></div></div>
         <div class="timeLineLineLeft"></div>
         <div class="timeLineLine"><div class="line"></div></div>  
-        <div class ="timeDate1" style="background-color:rgb(57, 57, 57);"><h1>Jul 10 1856</h1></div>
+        <div class ="timeDate1" style="background-color:rgb(57, 57, 57);"><h1 class ="quoteText">&quot;Let the future tell the truth,<br />and evaluate each one according<br />to his work and accomplishments.<br />The present is theirs; the future, for<br />which I have really worked,<br />is mine.&quot;</h1></div>
         <div class="RBorder"><div class="borderColour"></div></div>
 
+        <div></div>
+        <div>
+            <p class = "quoteRefText">- On patent controversies regarding the invention of Radio and other things, as quoted in &quot;A Visit to Nikola Tesla&quot; by Dragislav L. Petković in Politika (April 1927).</p>
+        </div>
+        <div></div>
+
+        <div class="timeDate2" style="background-color: rgb(57, 57, 57);"><h1>Jul 10 1856</h1></div>
         <div></div>
         <div>
             <h2>Nikola Tesla Is Born</h2>
@@ -96,9 +36,6 @@
                 Tesla went to school in Karlovac. He finished a four-year term in the span of three years.</p>
         </div>
         <div></div>
-
-        <div class="timeDate2" style="background-color: rgb(57, 57, 57);"><h1>1875</h1></div>
-
       </div>
 </body>
 </html>
